@@ -19,7 +19,7 @@ public class WSEBank {
 				account.AccountManager.displayAccountList();
 				break;
 			case "3":
-				account.AccountManager.Withdraw();
+				account.AccountManager.Withdraw(); /* dang gap chut van de */
 				break;
 			case "4":
 				account.AccountManager.Deposit();

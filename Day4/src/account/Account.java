@@ -60,20 +60,16 @@ public class Account implements ATM {
 
 	@Override
 	public boolean withdraw(int accID, double money) {
-		if(accID == accountID)	{
-			if(accountBalance - money >= 50000)	{
-				accountBalance = accountBalance - money;
-				System.out.println("--Successful transaction.");
-				System.out.print("--The balance in the account is " + accountBalance);
-				return true;
-			}
-			else	{
-				System.out.println("--Transaction failed. Available balance in the account is less than 50000.");
-				return false;
-			}
+		double tmp = accountBalance - money;
+		
+		if(tmp >= 50000)	{
+			accountBalance = accountBalance - money;
+//				System.out.println("\n--Successful transaction.");
+//				System.out.print("--The balance in the account is " + accountBalance);
+			return true;
 		}
-		else	{
-			System.out.println("--Account ID does not exist.");
+		else {
+//			System.out.println("\n--Transaction failed. Available balance in the account is less than 50000.");
 			return false;
 		}
 	}
@@ -82,12 +78,12 @@ public class Account implements ATM {
 	public boolean deposit(int accID, double money) {
 		if(accID == accountID)	{
 			accountBalance = accountBalance + money;
-			System.out.println("--Successful transaction.");
-			System.out.print("--The balance in the account is " + accountBalance);
+//			System.out.println("--Successful transaction.");
+//			System.out.print("--The balance in the account is " + accountBalance);
 			return true;
 		}
 		else	{
-			System.out.println("--Account ID does not exist.");
+//			System.out.println("--Account ID does not exist.");
 			return false;
 		}
 	}
@@ -95,22 +91,22 @@ public class Account implements ATM {
 	@Override
 	public double queryBalance(int accID) {
 		if(accID == accountID)	{
-			System.out.print("--The balance in the account is " + accountBalance);
+//			System.out.print("--The balance in the account is " + accountBalance);
 			return accountBalance;
 		}
 		else
-			System.out.println("--Account ID does not exist.");
+//			System.out.println("--Account ID does not exist.");
 			return 0;
 	}
 
 	@Override
 	public boolean login(String account, String password) {
 		if(account.equals(accountName) == true && password.equals(accountPassword) == true)	{
-			System.out.println("--Logged in successfully.");
+//			System.out.println("--Logged in successfully.");
 			return true;
 		}
 		else	{
-			System.out.println("--Account or password is incorrect.");
+//			System.out.println("--Account or password is incorrect.");
 			return false;
 		}
 	}
@@ -118,11 +114,11 @@ public class Account implements ATM {
 	@Override
 	public boolean logout(String account) {
 		if(account.equals(accountName) == true)	{
-			System.out.println("--Successful logout.");
+//			System.out.println("--Successful logout.");
 			return true;
 		}
 		else	{
-			System.out.println("--Account name does not exist.");
+//			System.out.println("--Account name does not exist.");
 			return false;
 		}
 	}
