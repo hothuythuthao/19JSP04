@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a	{
+	color: white;
+}
+
+a:hover	{
+	text-decoration: none;
+	color: black;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], select{
+	border: 1px solid #AAA;
+	border-radius: 5%;
+	padding-left: 0.5%;
+	width: 150%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	box-shadow: 0px 0px 10px 1px #AAA;
+}
+
+h2 {
+	color: #ff0000;
+	border-bottom: 2px solid #DDD;
+	padding-bottom: 3%;
+	text-align: center;
+}
+
+table {
+	margin-left: 14%;
+	font-size: 16px;
+	color: black;
+}
+
+label	{
+	font-weight: normal;
+}
+
+.container	{
+	width: 100%;
+	padding: 0px;
+}
+
+.content-head-top	{
+	background-color: #ff0000;
+	padding: 1%;
+}
+
+.signin-head {
+	margin-left: 70%;
+}
+.signup-head {
+	margin-left: 3%;
+}
+.content-head-bot	{
+	background-color: #cccccc;
+	padding-bottom: 2%;
+}
+
+.logo-head-bot	{
+	float: left;
+	margin-top: 0.5%;
+	margin-left: 15%;
+	width: 40%;
+}
+.image-logo-head	{
+	width: 18%;
+	float: left;
+}
+
+.slogan	{
+	padding-top: 6%;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.info-head-bot	{
+	margin-left: 50%;
+	width: 50%;
+	padding-top: 2%;
+}
+
+.info-top	{
+	padding-top: 1%;
+	margin-left: 58.5%;
+}
+.image-info-head	{
+	width: 9.5%;
+}
+
+.glyphicon-plus	{
+	color: black;
+}
+
+.info-bot {
+	margin-left: 50.25%;
+	font-size: 16px;
+	color: #ff0000;
+}
+
+.compulsory	{
+	color: #ff0000;
+}
+
+.form-container	{
+	border: 2px solid #ff0000;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 3%;
+	box-shadow: 0px 0px 10px 7px #ff0000;
+} 
+
+.item-table	{
+	width: 55%;
+}
+
+.term {
+	margin-left: 48.5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	font-size: 16px; 
+	width: 50%;
+	color: black;
+}
+
+.term-p	{
+	float: left;
+}
+
+.sign-up	{
+	margin-left: 54%;
+	background-color: #fff;
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	font-weight: bold;
+	border-radius: 10%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	box-shadow: 0px 0px 3px 1px #ff0000;
+}
+
+.reset	{
+	margin-left: 9.25%;
+	background-color: #fff;
+	border: 1px solid #ff0000;
+	color: #ff0000;
+	font-weight: bold;
+	border-radius: 10%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	box-shadow: 0px 0px 3px 1px #ff0000;
+}
+
+.note	{
+	font-size: 16px;
+	font-style: italic;
+	margin-left: 77%;
+	padding-top: 1%;
+}
+
+.p {
+	padding-left: 5%;
+}
