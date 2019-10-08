@@ -121,14 +121,15 @@ h4	{
 
 .menu ul li {
 	float: left;
-	width: 15%;
+	width: 6%;
+	margin-right: 10%;
 }
 
 .menu ul li a 	{
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
-	transition: all linear 0.5s;
+	transition: all linear 0.3s;
 }
 
 .menu ul li a:hover	{
@@ -140,7 +141,7 @@ h4	{
 }
 
 .menu-item	{
-	margin-left: -3%;
+	margin-left: -7%;
 	padding-left: 0%;
 	display: none;
 	position: absolute;
@@ -152,11 +153,11 @@ h4	{
 }
 
 .menu ul li:hover .menu-item li {
-	width: 100%;
+	width: 250%;
 	background-color: #FF0000;
 	padding-top: 2%;
 	padding-bottom: 1%;
-	padding-left: 3%;
+	padding-left: 5%;
 	border-bottom: 1.5px solid white;
 	border-left: 1.5px solid white;
 }
