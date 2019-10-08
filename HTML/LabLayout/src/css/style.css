@@ -1,0 +1,180 @@
+body	{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+input[type="text"] {
+	border: 1px solid #AAA;
+	border-radius: 5%;
+	padding-left: 0.5%;
+	width: 25%;
+	box-shadow: 0px 0px 10px 1px #AAA;
+}
+
+a {
+	font-size: 16px;
+}
+
+li {
+	list-style-type: none;
+}
+
+h3	{
+	font-weight: bold;
+	color: black;
+}
+
+h4	{
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.compulsory	{
+	color: #ff0000;
+}
+
+.container	{
+	width: 100%;
+	padding: 1%;
+}
+
+.logo-head	{
+	width: 40%;
+	float: left;
+	margin-right: 28.75%;
+}
+
+.logo 	{
+	width: 15%;
+	float: left;
+}
+
+.slogan	{
+	padding-top: 5%;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.search-head	{
+	font-size: 16px;
+	width: 100%;
+	padding-top: 2%;
+}
+
+.search 	{
+}
+
+.icon-search {
+	margin-left: -1.75%;
+	color: #AAA;
+}
+
+.search-btn	{
+	background-color: #fff;
+	border: 0.5px solid #ff0000;
+	color: #ff0000;
+	font-weight: bold;
+	border-radius: 10%;
+	padding-left: 0.75%;
+	padding-right: 0.75%;
+	box-shadow: 0px 0px 3px 1px #ff0000;
+	margin-left: 1%;
+}
+
+
+.news-left	{
+	float: left;
+	width: 60%;
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 16px;
+	margin-top: -1.25%;
+}
+
+
+.by 	{
+	background-color: #FF0000;
+	text-align: center;
+}
+
+.contact	{
+	color: white;
+	background-color: #CD0000;
+}
+
+.item-contact	{
+	width: 20%;
+	float: left;
+	margin-left: 2%;
+	font-size: 12px;
+}
+
+.menu {
+	background-color: #FF0000;
+	padding-top: 0.5%;
+	padding-bottom: 1.25%;
+}
+
+.menu ul li {
+	float: left;
+	width: 15%;
+}
+
+.menu ul li a 	{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: all linear 0.5s;
+}
+
+.menu ul li a:hover	{
+	color: black;
+}
+
+.menu ul li {
+	position: relative;
+}
+
+.menu-item	{
+	margin-left: -3%;
+	padding-left: 0%;
+	display: none;
+	position: absolute;
+	margin-top: 2%;
+}
+
+.menu ul li:hover .menu-item	{
+	display: block;
+}
+
+.menu ul li:hover .menu-item li {
+	width: 100%;
+	background-color: #FF0000;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	border-bottom: 1.5px solid white;
+	border-left: 1.5px solid white;
+}
+
+.background-gradient	{
+	background-color: #FF0000;
+    background: -moz-linear-gradient(bottom, #FF0000 30%, #330000 70%);
+    background: -o-linear-gradient(bottom, #FF0000 30%, #330000 70%);
+    background: -ms-linear-gradient(bottom, #FF0000 30%, #330000 70%);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0.2, #FF0000),color-stop(0.8, #330000));
+    height: 150px;
+    width: 100%;
+}
+
+.item-news	{
+	text-decoration: underline;
+}
+
+a:hover	{
+	color: #FF0000;
+}
