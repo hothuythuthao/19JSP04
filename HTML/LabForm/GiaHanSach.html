@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MIXI GAMING - USER</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="src/css/index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="content-head">
+			<div class="content-head-top">
+				<a href="#" target="blank" class="signin-head">
+                	<span class="glyphicon glyphicon-user"></span> LOGIN
+            	</a>
+				<a href="#" target="blank" class="signup-head">
+                	<span class="glyphicon glyphicon-edit"></span> REGISTER
+            	</a>
+			</div>
+			<div class="content-head-bot">
+				<div class="logo-head-bot">
+					<a href="#" target="blank"><img src="src/image/logomixi.png" class="image-logo-head"></a>
+					<div class="slogan">
+						<p><span class="compulsory">MIXI</span>GAMING FROM <span class="compulsory">DANANG</span> WITH <span class="compulsory">LOVE</span></p>
+					</div>
+				</div>
+				<div class="info-head-bot">
+					<div class="info-top">
+						<img src="src/image/vn.png" class="image-info-head">
+						<img src="src/image/anh.png" class="image-info-head">
+						<a href="#" target="blank">
+							<span class="glyphicon glyphicon-search glyphicon-plus"></span>
+						</a>
+					</div>
+					<div class="info-bot">
+						<p>Hotline: +999999999</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="menu">
+			<ul>
+          		<li><a href="index.jsp">Trang chủ</a></li>
+		<li><a href="DanhSachSach.jsp">Xem thư viện sách</a></li>
+		<li><a href="TraCuuSach.jsp">Tra cứu sách</a></li>
+		<li><a href="DoiMatKhau.jsp">Đổi mật khẩu</a></li>
+		<li><a href="GiaHanSach.jsp">Gia hạn sách</a></li>
+		<li><a href="TraSach.jsp">Trả sách</a></li>
+		<li><a href="NhatKyMuonTraServlet">Nhật ký mượn trả</a></li>
+		<li><a href="DangXuatServlet">Đăng xuất</a></li>
+      		</ul>
+		</div>
+		<div class="form-container-display-book">
+			<form>
+				<div>
+					<h3>GIA HẠN SÁCH</h3>
+				</div>
+				<div>
+					<table class="database-table-book">
+						<tr>
+							<th class="database-trth-book">Mã phiếu mượn</th>
+							<th  class="database-trth-book">Mã sách</th>
+							<th  class="database-trth-book">Ngày mượn</th>
+							<th  class="database-trth-book">Ngày phải trả</th>
+							<th class="database-trth-book">Ngày đăng ký</th>
+							<th  class="database-trth-book" colspan="2">Tác vụ</th> 
+						</tr>
+						<tr>
+							<td class="database-td-book">11111</td>
+							<td class="database-td-book">11111</td>
+							<td class="database-td-book">22/12/2019</td>
+							<td class="database-td-book">22/12/2019</td>
+							<td class="database-td-book">22/12/2019</td>
+							<td class="database-td-book">
+								<button class="borrow" <a href="#">Gia hạn</a></button>
+							</td>
+							<td class="database-td-book">
+								<button class="borrow" <a href="#">Trả sách</a></button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
