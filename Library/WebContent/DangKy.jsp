@@ -17,15 +17,15 @@
 			<div>
 				<table class="form-table-register">
 					<tr>
-						<td class="item-table-register"><label>Họ và tên : </label></td>
+						<td class="item-table-register"><label>Họ và tên: </label></td>
 						<td><input type="text" name="userName" required></td>
 					</tr>
 					<tr>
-						<td><label>Mật khẩu : </label></td>
+						<td><label>Mật khẩu: </label></td>
 						<td><input type="password" name="password" required></td>
 					</tr>
 					<tr>
-						<td><label>Nhập lại mật khẩu : </label></td>
+						<td><label>Nhập lại mật khẩu: </label></td>
 						<td><input type="password" name="confirmPassword" required></td>
 					</tr>
 					<tr>
